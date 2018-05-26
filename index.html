@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Test Qwant</title>
-<link rel="stylesheet" type="text/css" href="css/main.css">
-<script type="text/javascript" src="js/main.js"></script>
+  <head>
+    <title>Test Qwant</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 <!-- <link rel="stylesheet" type="text/css" href="css/reset.css"> -->
-</head>
-<body>
+  </head>
+  <body>
 
-<h1>Random Movie Picker</h1>
-<p>Hello there. What you wanna watch?</p>
+    <div class="container">
+      <!-- Here is your key: f4982a00
+      Please append it to all of your API requests,
+      OMDb API: http://www.omdbapi.com/?i=tt3896198&apikey=f4982a00
+      Click the following URL to activate your key: http://www.omdbapi.com/apikey.aspx?VERIFYKEY=041a1677-2e0a-4d9d-b6f6-aa403916f3d7
+      If you did not make this request, please disregard this email. -->
 
-<input name="search" type="search" placeholder="Search for a movie..." required autofocus>
+      <h1>Random Movie Picker</h1>
+      <p>Hello there. What you wanna watch?</p>
 
-</body>
+      <form>
+      <input name="search" type="search" placeholder="Search for a movie..." required autofocus>
+      <input type="submit" value="Search"/>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
