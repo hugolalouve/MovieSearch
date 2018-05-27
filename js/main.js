@@ -1,5 +1,10 @@
-var search = document.getElementById("movieSearch");
+window.onload = store;
 
-document.on('click') {
-  console.log(search.value);
+function store()
+{
+   document.getElementById('searchButton').onclick = function()
+   {
+      document.getElementById('movieSearch')
+       console.log(movieSearch.value);
+   }
 }

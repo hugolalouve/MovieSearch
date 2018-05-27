@@ -46,11 +46,12 @@ input[type=search]:focus {
   outline: none;
   border: 1px solid #4be6f4; }
 
-input[type=submit] {
+input[type=button] {
   padding: 16px 32px;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
   background: #4be6f4;
-  border: 1px solid #4be6f4;
   cursor: pointer;
   color: white;
   border-radius: 4px;
@@ -58,8 +59,15 @@ input[type=submit] {
   -o-transition-duration: .3s;
   transition-duration: .3s; }
 
-input[type=submit]:hover {
-  border: 1px solid #3cb6c2;
+input[type=button]:hover {
+  background: #3cb6c2;
+  -webkit-transition-duration: .3s;
+  -o-transition-duration: .3s;
+  transition-duration: .3s; }
+
+input[type=button]:focus {
+  outline: none;
+  background: #3cb6c2;
   -webkit-transition-duration: .3s;
   -o-transition-duration: .3s;
   transition-duration: .3s; }
